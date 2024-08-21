@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - AltSchool Africa</title>
+    <link rel="stylesheet" href="stylesheets\form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="pictures\education.png" alt="Education Icons" class="education-icons">
+            <h1>Learn highly sought after skills without hassle.</h1>
+            <div class="social-icons">
+                <a href="https://twitter.com/altschoolafrica" class="icon twitter"><img src="pictures\twitter.png" alt="twitter-logo" srcset=""></a>
+                <a href="https://instagram.com/altschoolafrica" class="icon instagram"><img src="pictures\instagram.png" alt="instagram-logo" srcset=""></a>
+                <a href="https://facebook.com/AltSchoolAfrica" class="icon facebook"><img src="pictures\facebook.png" alt="facebook-logo" srcset=""></a>
+                <a href="https://linkedin.com/school/altschoolafrica" class="icon linkedin"><img src="pictures\linkedin.png" alt="linkedin-logo" srcset=""></a>
+            </div>
+            <p class="contact">Tel: 0800ALTSCHOOL</p>
+            <p class="copyright">&copy;2024 AltSchool Africa. All rights reserved.</p>
+        </div>
+        <div class="right-section">
+            <div class="sign-in">
+                <p>Already an AltSchooler? <a href="#">Sign In!</a></p>
+            </div>
+            <h2>Signup</h2>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Enter last name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender">
+                            <option value="">Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="08154387000">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="">Select your country</option>
+                            <!-- Add country options here -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State/City of Residence</label>
+                        <input type="text" id="state" name="state" placeholder="Enter your state/city">
+                    </div>
+                    <div class="form-group">
+                        <label for="hear-about-us">How did you hear about us</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn"> submit -> </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
